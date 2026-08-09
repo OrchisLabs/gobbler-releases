@@ -5,5 +5,8 @@ This repository contains binary-only public releases of Gobbler for Mac. The app
 The current preview is unsigned, universal for Intel and Apple Silicon, and requires macOS Monterey or newer. Install through the public Homebrew tap:
 
 ```sh
-brew install --cask --no-quarantine orchislabs/gobbler/gobbler
+brew install --cask orchislabs/gobbler/gobbler
 ```
+
+The Homebrew cask removes macOS quarantine from the installed app because this
+preview is intentionally unsigned.
